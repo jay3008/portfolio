@@ -7,6 +7,48 @@
     <title>JB</title>
     <link rel="stylesheet" href="style.css">
     <style>
+        .project-container{
+            background-image: url("images/coding2.jpg");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+        .project{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            gap: 100px;
+        }
+        .project-sub-container{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 100px;
+            width: 100%;
+        }
+        .project-sub-container>img{
+            height: 14rem;
+            width:18rem;
+        }
+        .width-50{
+            width: 50%;
+        }
+        #academic{
+            font-size: 40px;
+            color: #00a8fb;
+        }
+        .project-title{
+            font-size: 30px;
+            color: aliceblue;
+        }
+        .project-desc{
+            font-size: 18px;
+            line-height: 1.5;
+            letter-spacing: 1px;
+            word-spacing: 5px;
+            color: aliceblue;
+        }
     </style>
 </head>
 <body>
@@ -22,7 +64,7 @@
         </div>
     </section>
 
-    <section>
+    <section class="skill-container">
         <div class="header margin-6">
             <div>
                 <div class="skills">
@@ -50,6 +92,54 @@
                     <p>C++</p>
                     <div class="html java">70 %</div>
                 </div>
+            </div>
+        </div>
+    </section>
+    <section class="project-container">
+        <div class="project margin-6">
+            <h2 id="academic">Academic Project</h2>
+            <div class="project-sub-container">
+                <img src="images/e-comm.jpg" alt="E-commerce">
+                <div class="width-50">
+                    <h3 class="project-title">E-commerce Web Application</h3>
+                    <p class="project-desc">Created Web Application Using Java Technology In which user 
+                        can order furniture Using our system and also pay bill online 
+                        Take Advantage of Our Two Additional Serivces which are Request for carpenter,
+                        Make their own designed furniture.
+                    </p>
+                </div>
+            </div>
+            <div class="project-sub-container">
+                <div class="width-50">
+                    <h3 class="project-title">Sticky Notes</h3>
+                    <p class="project-desc">
+                        Created Sticky Notes Using HTML CSS And JavaScript Which uses browsers local storage
+                        to store notes and Also show date n time.
+                    </p>
+                </div>
+                <img src="images/note-taking.png" alt="notes-img">
+             
+            </div>
+            <div class="project-sub-container">
+                <img src="images/cars.jpg" alt="Cars">
+                <div class="width-50">
+                    <h3 class="project-title">Simple Car Game</h3>
+                    <p class="project-desc">
+                        Make Simple car game Using HTML CSS JavaScript Which only moves Top Right Left Bottom
+                        and if car touch enemy car then game get over after that will show score !!
+                    </p>
+                </div>
+            </div>
+            <div class="project-sub-container">
+                <div class="width-50">
+                    <h3 class="project-title">Simple Music Player</h3>
+                    <p class="project-desc">
+                        Make Simple Static Music player Using HTML CSS JavaScript which has play pause next previous functions. 
+                        
+                    </p>
+                </div>
+                <img src="images/music.jpg" alt="Music">
+             
             </div>
         </div>
     </section>

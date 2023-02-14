@@ -1,6 +1,9 @@
 body{
     margin: 0;
 }
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
 .margin-6{
     margin: 0 6%;
 }
@@ -42,6 +45,10 @@ body{
     from {width: 0%}
     to {width: 100%;}
 }
+
+.skill-container{
+    background-image:linear-gradient(to left, #fc5c7d, #6a82fb);
+}
 .skills{
     width: 300px;
     height: 300px;
@@ -57,7 +64,7 @@ body{
 .skills:hover{
     /* background-image:linear-gradient(to right, #fc5c7d, #6a82fb); */
     background-color: #fc5c7d;
-    box-shadow: 1px 1px 20px #6a82fb;
+    box-shadow: 1px 1px 20px #b7fc5ca0;
 }
 .skills>h2{
     font-size: 50px;
