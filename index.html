@@ -49,6 +49,23 @@
             word-spacing: 5px;
             color: aliceblue;
         }
+        .black-bg{
+            background-color: rgba(0, 0, 0, 0.322);
+            padding: 0px 10px;
+            border-radius: 20px 0px 20px 0px;
+        }
+        .techs{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .techs>img{
+            width:150px;
+            height:150px;
+        }
+        .center{
+            text-align: center;
+        }
     </style>
 </head>
 <body>
@@ -100,7 +117,7 @@
             <h2 id="academic">Academic Project</h2>
             <div class="project-sub-container">
                 <img src="images/e-comm.jpg" alt="E-commerce">
-                <div class="width-50">
+                <div class="width-50 black-bg">
                     <h3 class="project-title">E-commerce Web Application</h3>
                     <p class="project-desc">Created Web Application Using Java Technology In which user 
                         can order furniture Using our system and also pay bill online 
@@ -110,7 +127,7 @@
                 </div>
             </div>
             <div class="project-sub-container">
-                <div class="width-50">
+                <div class="width-50 black-bg">
                     <h3 class="project-title">Sticky Notes</h3>
                     <p class="project-desc">
                         Created Sticky Notes Using HTML CSS And JavaScript Which uses browsers local storage
@@ -122,7 +139,7 @@
             </div>
             <div class="project-sub-container">
                 <img src="images/cars.jpg" alt="Cars">
-                <div class="width-50">
+                <div class="width-50 black-bg">
                     <h3 class="project-title">Simple Car Game</h3>
                     <p class="project-desc">
                         Make Simple car game Using HTML CSS JavaScript Which only moves Top Right Left Bottom
@@ -131,7 +148,7 @@
                 </div>
             </div>
             <div class="project-sub-container">
-                <div class="width-50">
+                <div class="width-50 black-bg">
                     <h3 class="project-title">Simple Music Player</h3>
                     <p class="project-desc">
                         Make Simple Static Music player Using HTML CSS JavaScript which has play pause next previous functions. 
@@ -142,6 +159,22 @@
              
             </div>
         </div>
+    </section>
+
+    <section class="technology-conatainer">
+        <div class="technology margin-6">
+            <h2 id="academic" class="center">Technology Known</h2>
+            <div class="techs">
+                <img src="images/html-logo.png" alt="HTML">
+                <img src="images/css-logo.png" alt="CSS">
+                <img src="images/js.png" alt="JavaScript">
+                <img src="images/jquery.png" alt="jquery">
+                <img src="images/boot.png" alt="bootstrap">
+                <img src="images/mysql.png" alt="mysql">
+                <img src="images/java.png" alt="java">
+            </div>
+        </div>
+       
     </section>
 </body>
 </html>
